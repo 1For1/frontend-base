@@ -1,0 +1,56 @@
+{
+  "name": "1for1",
+  "version": "0.0.1",
+  "description": "frontend base",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1For1/frontend-base.git"
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "bower": "^1.7.2",
+    "chalk": "^1.1.1",
+    "compression": "^1.6.1",
+    "consolidate": "^0.13.1",
+    "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "express": "4.13.3",
+    "express-jwt": "^3.3.0",
+    "express-session": "^1.13.0",
+    "glob": "^6.0.4",
+    "jasmine-node": "^1.14.5",
+    "json2csv": "^3.1.0",
+    "jwt-simple": "^0.4.1",
+    "kerberos": "^0.0.18",
+    "lodash": "^4.0.0",
+    "mongodb": "^2.1.5",
+    "mongoose": "^4.4.1",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.0.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-jwt": "^1.2.1",
+    "passport-linkedin-oauth2": "^1.4.0",
+    "passport-twitter": "^1.0.4",
+    "reflect-metadata": "0.1.2",
+    "request": "^2.69.0",
+    "rxjs": "5.0.0-beta.0",
+    "swig": "^1.4.2",
+    "systemjs": "0.19.6",
+    "twitter": "^1.2.5",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jasmine-nodejs": "^1.4.3",
+    "lite-server": "^1.3.1",
+    "typescript": "^1.7.3"
+  }
+}
