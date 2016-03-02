@@ -8,4 +8,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install --registry  https://registry.nodejitsu.com
+RUN npm config set registry https://npm.strongloop.com
+
+RUN npm install --registry https://npm.strongloop.com
